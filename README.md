@@ -5,7 +5,7 @@ Use data structured breadcrumbs from [schema.org](https://schema.org/BreadcrumbL
 ## How to install
 
 ```
-$ composer require orige/yii2-schema-breadcrumbs
+$ composer require micmorozov/yii2-schema-breadcrumbs
 ```
 
 ## How to use

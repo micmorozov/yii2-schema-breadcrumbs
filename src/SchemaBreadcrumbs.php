@@ -13,6 +13,8 @@ use yii\widgets\Breadcrumbs;
 
 class SchemaBreadcrumbs extends Breadcrumbs
 {
+    public $allowEmptyLinks = true;
+
     public $itemTemplate = '
         <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
             {link}
@@ -40,7 +42,7 @@ class SchemaBreadcrumbs extends Breadcrumbs
 
     public function run()
     {
-        if (empty($this->links)) {
+        if (!$this->allowEmptyLinks && empty($this->links)) {
             return;
         }
 

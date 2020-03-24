@@ -1,5 +1,5 @@
 {
-    "name": "orige/yii2-schema-breadcrumbs",
+    "name": "micmorozov/yii2-schema-breadcrumbs",
     "description": "Use schema.org breadcrumbs structure on your Yii2 projects",
     "require": {
         "yiisoft/yii2": "^2.0"
